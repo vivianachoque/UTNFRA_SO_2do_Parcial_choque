@@ -118,3 +118,12 @@
 2024-11-18 21:31:44,076 p=12375 u=osboxes n=ansible | PLAY RECAP ******************************************************************************************************************************************************
 2024-11-18 21:31:44,077 p=12375 u=osboxes n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
 2024-11-18 21:31:44,077 p=12375 u=osboxes n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:41:38,186 p=13751 u=osboxes n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-18 21:41:38,628 p=13751 u=osboxes n=ansible | PLAY [Crear estructura de directorios y archivos] ***************************************************************************************************************
+2024-11-18 21:41:38,651 p=13751 u=osboxes n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************
+2024-11-18 21:41:38,704 p=13751 u=osboxes n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 127.0.0.1 port 22: Connection refused", "unreachable": true}
+2024-11-18 21:41:39,188 p=13751 u=osboxes n=ansible | fatal: [localhost]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2024-11-18 21:41:39,190 p=13751 u=osboxes n=ansible | PLAY RECAP ******************************************************************************************************************************************************
+2024-11-18 21:41:39,190 p=13751 u=osboxes n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:41:39,190 p=13751 u=osboxes n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   

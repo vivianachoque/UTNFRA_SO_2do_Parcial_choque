@@ -1,0 +1,1321 @@
+ls
+if [[ ! $PS1 =~ 133 ]] ; then         PS1='\[\e]133;L\a\]\[\e]133;D;$?\]\[\e]133;A\a\]'$PS1'\[\e]133;B\a\]' ;         PS2='\[\e]133;A\a\]'$PS2'\[\e]133;B\a\]' ;
+cd ~
+ls
+cd $HOME
+ls
+pwd
+mkdir repogit
+cd repogit/
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone https://github.com/vivianachoque/UTNFRA_SO_1P2C_2024_-Choque-.git
+sudo apt update
+sudo apt install tree
+tree --version
+ls
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+pwd
+clear
+pwd
+ls
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+cd 202410
+ls
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh ~/.bashrc && history -a
+ls
+pwd
+ls
+cd script_precondicion.sh
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+clear
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+ls
+./script_Precondicion.sh 
+source  ~/.bashrc  && history -a
+source ~/.bashrc
+history -a
+cd
+ls
+cd repogit/
+cd UTN-FRA_SO_Examenes/
+ls
+cd 202410
+ls
+./script_Precondicion.sh 
+help --
+[200~source  ~/.bashrc  && history -a ~
+source  ~/.bashrc  && history -a 
+ls
+./script_Precondicion.sh 
+./script_Precondicion.sh && source ~/.bashrc && history -a
+source ~/.bashrc && ./script_Precondicion.sh && history -a
+tree
+ls
+cd..
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd osboxes/
+cd repogit/
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+cd 202410
+ls
+./script_Precondicion.sh 
+source  ~/.bashrc  && history -a 
+ls
+tree
+cd ..
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+tree
+mkdir -p /Examenes-UTN/alumno_{1..3}/parcial_{1..3} /Examenes-UTN/profesores
+sudo mkdir -p /Examenes-UTN/alumno_{1..3}/parcial_{1..3} /Examenes-UTN/profesores
+tree
+./Punto_A.sh
+ls
+./Punto_A.sh
+ls
+cd RTA_ARCHIVOS_Examen_20241006/
+ls
+cd
+ls
+cd repogit/
+ls
+UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd UTNFRA_SO
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_ARCHIVOS_Examen_20241006/
+ls
+tree
+ls
+cd Desktop/
+ls
+cd ..
+ls
+cd ..
+ls
+git clone https://github.com/vivianachoque/UTNFRA_SO_1P2C_2024_-Choque-.git
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+cd 202410
+ls
+./script_Precondicion.sh 
+source  ~/.bashrc  && history -a 
+ls
+./script_Precondicion.sh 
+cd ..
+ls
+cd ..
+ls
+cd UTNFRA_SO
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+tree
+cd RTA_SCRIPT_Examen_20241006/
+ls
+./Punto_A.sh
+sudo ./Punto_A.sh
+chmod +x Punto_A.sh
+./Punto_A.sh
+vim Punto_A.sh
+sudo ./Punto_A.sh 
+sudo snap install code --classic
+sudo apt install code
+cd ..
+ls
+cd /
+ls
+cd Examenes-UTN/
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+cd ..
+ls
+git add .
+git commit -m "Agregar script a Punto_A.sh para crear estructura de directorios solicitados en el examen"
+git config --global user.email "vivianaachoque@gmail.com"
+git config --global user.name "vivianachoque"
+git add .
+git commit -m "Agregar script a Punto_A.sh para crear estructura de directorios solicitados en el examen"
+git push
+git config --global credential.helper cache
+git push
+ssh-keygen
+ls
+git push
+git add .
+git commit -m "Agregar script a Punto_A.sh para crear estructura de directorios solicitados en el examen"
+git push
+git remote -v
+ssh-keygen -t rsa -b 4096 -C "vivianaachoque@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+git remote set-url origin git@github.com:vivianachoque/UTNFRA_SO_1P2C_2024_-Choque-.git
+git push
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+lsblk
+ls
+vim Punto_B.sh 
+sudo bash Punto_B.sh
+ls
+vim Punto_B.sh 
+./Punto_B.sh
+sudo ./Punto_B.sh
+sudo bash Punto_B.sh
+chmod +x Punto_B.sh
+sudo ./Punto_B.sh
+ls
+vim Punto_B.sh 
+code .
+vim Punto_B.sh
+ls
+sudo ./Punto_B.sh
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_B.sh 
+ls
+sudo Punto_B.sh
+fdisk -l $DISCO
+sudo fdisk -l $DISCO
+ls
+vim Punto_B.sh
+./Punto_B.sh
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+sudo fdisk -l /dev/sda
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_B.sh
+ls
+cd /
+ls
+chmod +x ./Punto_B.sh
+ls
+~
+cd ~
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+chmod +x ./Punto_B.sh
+sudo ./Punto_B.sh
+sudo fdisk -l /dev/sda
+fdisk -l
+sudo fdisk -l
+vim Punto_B.sh
+ls
+git add .
+cd ~
+ls
+cd /
+ls
+cd Examenes-UTN/
+ls
+cd alumno_
+cd alumno_1
+ls
+tree
+cd ..
+ls
+tree
+cd ~
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+git add .
+git commit -m "feature: generar un script que crea 10 particiones de aproximadamente un gb con sus respectivas validaciones"
+git push
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_C.sh 
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+la
+-l
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_C.sh 
+ls
+vim Punto_C.sh 
+sudo ./Punto_C.sh
+chmod +x Punto_C.sh
+sudo ./Punto_C.Sh
+ls
+chmod +x Punto_C.sh
+sudo Punto_C.sh
+sudo ./Punto_C.sh
+tree
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241006/
+ls
+tree
+cat /etc/passwd
+sudo cat /etc/passwd
+ls /home
+cd ..
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+git add .
+git commit -m "feature: Desarrollo script que genere usuarios y sus subgrupos"
+git push
+git pull
+git branch
+ls
+git add .
+git commit -m "feature: Desarrollo script que genere usuarios y sus subgrupos"
+git push
+git merge
+git push
+ls
+vim Punto_C.sh
+git add .
+sudo ./Punto_C.sh
+clear
+ls
+vim Punto_C.sh
+sudo ./Punto_C.sh
+git add .
+git commit -m "fix: Se modifica al script para automatizar la obtencion del hash del usuario, se mejora la legibilidad del codigo y tambien se agregan validaciones para poder ver verificar si el usuario existe o no. Tambien se resuelve bug de problemas agregando permisos."
+git push
+ls
+echo $home
+ls
+pwd
+cd $home
+ls
+pwd
+mkdir Estructura_Asimetrica/correo Estructura_Asimetrica/clientes
+mkdir Estructura_Asimetrica
+ls
+cd Estructura_Asimetrica/
+mkdir correo&&clientes
+mkdir correo && clientes
+mkdir Estructura_Asimetrica/correo Estructura_Asimetrica/clientes
+mkdir correo
+ls
+tree
+rm -r correo
+tree
+mkdir Estructura_Asimetrica/correo Estructura_Asimetrica/clientes
+tree
+mkdir correo
+mkdir clientes
+tree
+rm -r correo
+rm -r clientes
+ls
+tree
+cd ..
+ls
+rm -r Estructura_Asimetrica/
+cd ~
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_D.sh 
+ls
+chmod +x Punto_D.sh
+./
+,/Punto_D.sh
+./Punto_D.sh
+cd $HOME
+ls
+cd Estructura_Asimetrica/
+ls
+tree
+tree | sort
+tree
+cd ~
+ls
+cd repogit/
+ls
+cd UTRNFR
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+git add .
+git commit -m "feature: Se crea script para generar carpetas secuenciales de acuerdo a las instrucciones que se nos brindo en el pdf."
+git push
+mkdir $HOME/repogit/Filtro_Basico.txt
+cd.. 
+cd ..
+ls
+cd ..
+ls
+rm -r Filtro_Basico.txt/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+mkdir $HOME/repogit/RTA_ARCHIVOS_Examen_20241006/Filtro_Basico.txt
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_E.sh 
+sudo Punto_E.sh
+./Punto_E.sh
+sudo ./Punto_E.sh
+chmod +x ./Punto_E.sh
+sudo ./Punto_E.sh
+cd .. 
+cd ..
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_E.sh 
+sudo ./Punto_E.sh
+cd $HOME
+ls
+cd repogit/
+pwd
+cd repogit
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_E.sh 
+ls
+sudo ./Punto_E.sh
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241006/
+ls
+tree
+cd ..
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_E.sh 
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241006/
+ls
+pwd
+ls
+pwd
+ls
+cd ..
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_E.sh 
+ls
+sudo ./Punto_E.sh
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241006/
+ls
+./Filtro_Basico.txt
+ls
+pwd
+ls
+cd ..
+ls
+git add .
+git commit -m "Genero script que brinda informacion de chassis y memoria ram del sistema con sus respectivas validaciones"
+git push
+ls
+cd RTA_SCRIPT_Examen_20241006/
+ls
+vim Punto_F.sh
+ls
+chmod +x Punto_F.sh
+sudo ./Punto_F.sh 
+ls
+./Punto_E.sh
+vim Punto_E.sh
+ls
+./Punto_E.sh
+sudo ./Punto_E.sh
+ls
+vim Punto_F.sh
+sudo ./Punto_E.sh
+curl --v
+sudo apt install curl
+ls
+vim Punto_F.sh 
+ls
+sudo ./Punto_E.sh
+sudo ./Punto_F.sh
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+git add .
+git commit -m "feature: Genero un script que me de los datos de usuario, ip, hash de usuario, url de repositorio"
+git push
+sudo ./Punto_F.sh
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+vim Punto_F.sh 
+ls
+sudo ./Punto_F.sh
+sudo ./Punto_C.sh
+ls
+vim Punto_C.sh
+ls
+vim Punto_F.sh 
+cat Punto_F.sh 
+vim Punto_C.sh
+sudo ./Punto_C.sh
+sudo ./Punto_F.sh
+cat ./Punto_F.sh
+vim Punto_F.sh
+ls
+sudo ./Punto_F.sh
+vim Punto_F.sh
+sudo ./Punto_F.sh
+vim Punto_F.sh
+whoiam
+whoami
+vim Punto_F.sh
+vim Punto_F.sh
+sudo ./Punto_F.sh
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+chmod +x Punto_F.sh
+sudo ./Punto_F.sh
+git add .
+git commit -m "termino todo pero no puedo obtener el hash del usuario ver permisos"
+git ush
+git push
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+chmod +x Punto_F.sh
+sudo ./Punto_F.sh
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+chmod +x Punto_F.sh
+sudo ./Punto_F.sh
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+pwd
+whoami
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+whoami
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+vim Punto_F.sh 
+sudo ./Punto_F.sh
+git add .
+git commit -m "fix: Agrego hash de usuario hardcodeandolo directamente"
+git push
+tree
+cd Punto_C
+vim Punto_C.sh
+git add .
+git commit -m "Agrego linea con comentario alertando de un posible bug voy a testearlo si me da el tiempo"
+git push
+history -a
+$Home
+ls
+cd $HOME
+ls
+tree
+cd $HOME/.bash_history
+ls
+cat $HOME/.bash_history
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+cp ~/.bash_history
+cp --help
+cp ~/.bash_history
+cp home/.bash_history
+sudo cp ~/.bash_history
+sudo cp ~/.bash_history.sh
+ls
+cd ..
+ls
+cd UTNFRA_SO_1P2C_2024_-Choque-/
+ls
+pwd
+sudo cp ~/.bash_history.sh /home/osboxes/repogit/UTNFRA_SO_1P2C_2024_-Choque-
+sudo cp ~/.bash_history /home/osboxes/repogit/UTNFRA_SO_1P2C_2024_-Choque- 
+ls
+pwd
+tree
+./bash_history
+./bash_history.sh
+cd ./bash_history
+sudo cp ~/.bash_history /home/osboxes/repogit/UTNFRA_SO_1P2C_2024_-Choque- 
+ls
+history -a
+pwd
+cp ~/.bash_history  /home/osboxes/repogit/UTNFRA_SO_1P2C_2024_-Choque-
+sudo cp ~/.bash_history  /home/osboxes/repogit/UTNFRA_SO_1P2C_2024_-Choque-
+cat ./bash_history
+git add .
+git add . -f
+sudo git add .
+git commit -m "Tuve que forzar agregar el bash history"
+git push
+ls
+cd repogit
+~
+whoaim
+whoami
+cd rm
+clear
+fdsik
+lsblk
+clear
+history
+ls -l
+fdisk -l
+sudo fdisk -l
+ls -l
+sudo lsblk
+fdisk
+fdisk -l
+sudo fdisk-l
+sudo fdisk -l
+sudo lsblk
+sudo fdisk/dev/sdc
+sudo fdisk /dev/sdc
+lslbk
+Lsblk -f 
+sudo fdisk-l
+sudo lsblk 
+sudo mkfs -t ext4 /dev/-sdc1
+sudo mkfs -t ext4 /dev/sdc1
+sudo mount /dev/sdc1 /disco2
+cd /
+ls
+mkdir disco2
+sudo mkdir disco2
+sudo mount /dev/sdc1 /disco2
+cd /
+ls
+sudo lsblk 
+sudo lsblk -l
+sudo lsblk 
+clear
+sudo lsblk
+cd /
+ls
+cd disco2/
+ls
+cd ..
+clear
+sudo lsblk
+ls -l
+cd disco2/
+cd ..
+cd ~
+pwd
+ls
+touch texto.txt
+ls -l
+sudo chmod 764 texto.txt
+ls
+cd Desktop/
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+ls
+cd UTN-FRA_SO_Examenes/
+./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+cd ..
+./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+sudo ./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+source ~/.bashrc && history -a
+source ~/.bashrc
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y ansible
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+# Add the repository to Apt sources:
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker run hello-world
+sudo usermod -a -G docker [viviana]
+                     sudo usermod -a -G docker $(whoami)
+grep docker /etc/group 
+whoami
+grep docker /etc/group 
+sudo systemctl status docker 
+sudo usermod -l vivianachoque osboxes
+sudo usermod -l vivianachoque
+cd Desktop/
+git clone e https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+cd UTN-FRA_SO_Examenes/
+ls
+./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+cd ..
+./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+source  ~/.bashrc  && history -a 
+source ~/.bashrc
+cd UTN-FRA_SO_Examenes/
+ls
+git add .
+git push
+git remote add origin https://github.com/vivianachoque/https-github.com-vivianachoque-UTNFRA_SO_2do_Parcial_Choque.git
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/vivianachoque/https-github.com-vivianachoque-UTNFRA_SO_2do_Parcial_Choque.git
+git branch -M main
+git push -u origin main
+sudo apt install git-credential-manager
+git config --global credential.helper manager
+git remote add origin https://github.com/vivianachoque/https-github.com-vivianachoque-UTNFRA_SO_2do_Parcial_Choque.git
+git branch -M main
+git push -u origin main
+git remote add origin git@github.com:vivianachoque/https-github.com-vivianachoque-UTNFRA_SO_2do_Parcial_Choque.git
+git branch -M main
+git push -u origin main
+git remote add origin git@github.com:vivianachoque/https-github.com-vivianachoque-UTNFRA_SO_2do_Parcial_Choque.git
+git branch -M main
+git push -u origin main
+git remote add origin git@github.com:vivianachoque/https-github.com-vivianachoque-UTNFRA_SO_2do_Parcial_Choque.git
+git push -u origin main
+SHA256:Q4/OXJezWBar5u78Ys3aLg6yYvdLQ30KanTwmmW0wQA
+git remote set-url origin https://vivianachoque:Q4/OXJezWBar5u78Ys3aLg6yYvdLQ30KanTwmmW0wQA@github.com/upszot/UTN-FRA_SO_Examenes.git
+git remote -v
+git push origin main
+git remote add origin git@github.com:vivianachoque/https-github.com-vivianachoque-UTNFRA_SO_2do_Parcial_Choque.git
+git branch -M main
+git push -u origin main
+git push
+mkdir ~/RTA_Examen_T$(date +%Y%m%d)
+cd if [[ ! $PS1 =~ 133 ]] ; then
+cd ~
+ls
+cd RTA_Examen_
+mkdir ~/RTA_Examen_T$(date +%Y%m%d)
+cd RTA_Examen_T20241117/
+ls
+chmod +x Punto_A.sh
+echo -e '#!/bin/bash\n# Script para resolver el Punto A' > Punto_A.sh
+LS
+ls
+echo -e '#!/bin/bash\n# Script para resolver el Punto A' > Punto_B.sh
+echo -e '#!/bin/bash\n# Script para resolver el Punto A' > Punto_C.sh
+echo -e '#!/bin/bash\n# Script para resolver el Punto A' > Punto_D.sh
+echo -e '#!/bin/bash\n# Script para resolver el Punto A' > Punto_E.sh
+ls
+whoami
+lw
+ls
+git clone git@github.com:vivianachoque/UTNFRA_SO_2do_Parcial_choque.git
+git add .
+ls
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+git add .
+git commit -m "git init"
+git push
+sudo fdisk /dev/sdb
+ls
+docker --version
+ansanble --version
+ansible --version
+sudo fdisk /dev/sdb
+sudo apt update
+sudo apt install -y ansible git
+sudo docker run hello-world
+ls
+cd ..
+ls
+cd Desktop/
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+cd ..
+./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+cd ./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+cd UTNFRA_SO_2do_Parcial_choque/
+./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+cd ..
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+source  ~/.bashrc  && history -a 
+source ~/.bashrc
+cd ~
+ls
+cd RTA_Examen_20241118/
+ls
+lsblk
+sudo vgs
+lsblk
+sudo fdisk /dev/sdb
+cd ~
+sudo mkdir -p /var/lib/docker
+sudo mount /dev/vg_datos/lv_docker /var/lib/docker
+ls
+sudo vgs
+sudo lvs
+sudo pvs
+docker --version
+sudo fdisk /dev/sdb
+ls
+sudo fsdisk -l 
+sudo fdisk -l
+sudo fdisk /dev/sdb
+sudo  vgdisplay
+sudo fdisk -l $DISK1 $DISK2
+ls
+cd Desktop/
+ls
+cd ..
+ls
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+cd RTA_Examen_T20241117/
+ls
+vim Punto_A.sh 
+ls
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+cd RTA_Examen_T20241117/
+ls
+vim Punto_A.sh 
+ls
+vim Punto_A.sh 
+sudo fdisk -l
+ls
+vim Punto_A.sh 
+start Punto_A.sh
+Punto_A.sh
+./Punto_A.sh
+sudo ./Punto_A.sh
+ls
+chmod +x Punto_A.sh 
+ls
+cd Punto_A.sh
+./Punto_A.sh
+ls
+vim Punto_A.sh 
+vim Punto_A.sh
+git add .
+git commit -m "despues de mil formateos resuelvo punto a, ver de agregar validaciones"
+git push
+./Punto_A.sh
+cd ..
+ls
+fkdis -l
+fdisk -l
+sudo fdisk -l
+cd if [[ ! $PS1 =~ 133 ]] ; then
+cd ~
+ls
+cd usr
+cd /usr/local/bin
+sudo touch ChoqueUser-Groups.sh
+ls
+lslss
+ls
+sudo chmod 777 ChoqueAltaUser-Groups.sh
+ls
+mv ChoqueUser-Groups.sh ChoqueAltaUser-Groups.sh
+sudo mv ChoqueUser-Groups.sh ChoqueAltaUser-Groups.sh
+ls
+sudo chmod 777 ChoqueAltaUser-Groups.sh
+sudo passwd vagrant
+whoami
+sudo passswd osboxes
+sudo passwd osboxes
+ls
+vim Punto_B.sh 
+ls
+./Punto_B.sh
+sudo ./Punto_B.sh
+git add .
+git commit -m "genero script para punto_b para generacinnn de usuarios automatizada de acuerdo a lo solicitado"
+ls 
+cd Punto_B.sh
+vim Punto_B.sh 
+cd Punto_B.sh
+./Punto_B.sh
+sudo ./Punto_B.sh
+cd ./Punto_B.sh
+sudo Punto_B.sh
+chmod +x Punto_B.sh
+./Punto_B.sh
+vim Punto_B.sh
+./Punto_B.sh
+cd Punto_B.sh
+./Punto_B.sh
+ls
+cd ..
+ls
+cd ~
+ls
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+ls 
+pwd
+ls
+cd ..
+ls
+cd Desktop/
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+cd 202406
+ls
+pwd
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+cd RTA_Examen_T20241117/
+ls
+vim Punto_B.sh
+ls
+cd ..
+cd /usr/local/bin/ChoqueAltaUser-Groups.sh
+cd ls
+cd ~
+ls
+cd Usr
+cd /usr/local/bin
+ls
+vim ChoqueAltaUser-Groups.sh 
+ls
+sudo /usr/local/bin/ChoqueAltaUser-Groups.sh
+ls
+sudo /usr/local/bin/ChoqueAltaUser-Groups.sh osboxes
+ls
+vim ChoqueAltaUser-Groups.sh 
+sudo /usr/local/bin/ChoqueAltaUser-Groups.sh osboxes
+cd ~
+ls
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+cd RTA_Examen_T20241117/
+ls
+vim Punto_B.sh
+ls
+git add .
+git commit -m "[Scripts] Alta automatizada de usuarios y grupos
+
+- Script que crea usuarios y grupos desde archivo
+- Asigna contraseña desde usuario de referencia 
+- Configura directorios home y permisos"
+git push 
+ls
+cd ..
+ls
+cd ..
+ls
+cd Desktop/
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+cd 202406
+ls
+pwd
+ls
+cd docker/
+ls
+pwd
+cd if [[ ! $PS1 =~ 133 ]] ; then
+cd ~
+ls
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+cd RTA_Examen_T20241117/
+ls
+cd ..
+ls
+cd ..
+ls
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+cd RTA_Examen_T20241117/
+ls
+cd ..
+ls
+cd ..
+ls
+RTA_Examen_20241118/
+ls
+cd RTA_Examen_20241118/
+ls
+cd ..
+ls
+cd Desktop/
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+cd 202406
+ls
+cd docker/
+ls
+vim index.html 
+ls
+vim index.html
+docker build -t choqueweb1-so .
+sudo docker build -t choqueweb1-so .
+ls
+pwd
+cd ..
+ls
+cd ..
+ls
+cd 202406
+ls
+cd docker/
+ls
+FROM nginx
+docker --version
+mkdir dockerfile 
+ls
+rm dockerfile/
+ls
+cd dockerfile/
+ls
+cd ..
+nano Dockerfile
+ls
+cat dockerfile
+ls
+cat Dockerfile 
+docker build -t web1-Choque .
+docker build -t web1-choque .
+docker images
+docker tag web1-choquevivianachoque/web1-choque:latest
+docker tag web1-choque vivianachoque/web1-choque:latest
+docker push vivianachoque/web1-choque:latest
+docker login
+docker tag web1-choque vivianachoque/web1-choque:latest
+docker push vivianachoque/web1-choque:latest
+nano script.sh
+ls
+vim script.sh 
+ls
+chmod +x run.sh
+ls
+mv script.sh run.sh
+chmod +x run.sh
+./run.sh
+ls 
+cd ..
+ls
+cd ansible/
+ls
+mkdir -p /tmp/2do_parcial
+mkdir /tmp/2do_parcial/alumno
+mkdir /tmp/2do_parcial/equipo
+tree
+ls
+ls -l
+ls
+cd tmp
+mkdir -p ./tmp/2do_parcial/{alumno,equipo}
+ls
+cd tmp
+tree
+ls
+cd
+cd 2do_parcial
+ls
+cd RTA_Examen_20241118/
+ls
+vim Punto_A.sh 
+ls
+cd ..
+ls
+cd Templates/
+ls
+cdd ..
+ls
+cd ..
+ls
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+cd RTA_Examen_T20241117/
+ls
+CD ~
+cd ~
+ls
+cd Desktop/
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+cd 202406
+ls
+cd ansible/
+ls
+cd tmp/
+ls
+cd 2do_parcial/
+ls
+cd ..
+ls
+cd ..
+ls
+pwd
+ls
+mkdir templates
+ls
+cd templates/
+ls
+vim templates/datos_alumno.j2
+ls
+vim templates/datos_alumno.j2
+ls
+cd ..
+ls
+vim playbook.yml 
+ls
+cd templates/
+nano datos_alumnos.j2
+ls
+vim datos_alumnos.j2 
+nano datos_equipo.j2
+vim datos_equipo.j2 
+ls
+cd ..
+ls
+vim playbook.yml 
+ansible-playbook playbook.yml
+sudo ansible-playbook playbook.yml
+ls
+cd templates/
+ls
+vim datos_equipo.j2 
+export LC_ALL=C
+cd ..
+ls
+sudo ansible-playbook playbook.yml
+sudo locale-gen es_ES.UTF-8
+sudo update-locale LANG=es_ES.UTF-8 LC_ALL=es_ES.UTF-8
+sudo ansible-playbook playbook.yml
+ansible-playbook playbook.yml
+export LANGUAGE=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+sudo locale-gen en_US.UTF-8
+ansible-playbook playbook.yml
+ls
+echo "localhost ansible_connection=local" > inventory
+cd inventory/
+ls
+cd ..
+ls
+cd templates
+ls
+vim datos_alumnos.j2 
+ls
+cd ..
+ls
+vim playbook.yml 
+ansible-playbook playbook.yml
+ls
+cd templates/
+cat > templates/datos_alumno.j2 << EOF
+Nombre: {{ nombre }}
+Apellido: {{ apellido }}
+Division: {{ division }}
+EOF
+
+cd ..
+ls
+cat > templates/datos_alumno.j2 << EOF
+Nombre: {{ nombre }}
+Apellido: {{ apellido }}
+Division: {{ division }}
+EOF
+
+cat > templates/datos_equipo.j2 << EOF
+IP: {{ ansible_default_ipv4.address }}
+Distribucion: {{ ansible_distribution }}
+Cantidad de Cores: {{ ansible_processor_cores }}
+EOF
+
+ansible-playbook -i inventory playbook.yml
+ls
+cd tmp/
+ls
+cd 2do_parcial/
+ls
+cd equipo/
+ls
+ls -l
+cd ..
+ls
+cd alumno/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd templates/
+ls
+ls -l
+cd ..
+ls
+vim playbook.yml 
+ls
+vim playbook.yml 
+ansible-playbook -i inventory playbook.yml
+ls
+cd tmp/
+ls
+cd 2do_parcial/
+ls
+cd equipo/
+ls
+cd ..
+ls
+cd ..
+ansible-playbook -i inventory playbook.yml
+sudo systemctl status ssh
+ssh user@127.0.0.1
+ssh-keygen -t ed25519
+cat $HOME/.ssh/id_ed25519.pub >> $HOME/.ssh/authorized_keys
+ansible-playbook -i inventory/hosts playbook.yml
+ls 
+cd Desktop/
+ls
+cd UTN-FRA_SO_Examenes/
+ls
+cd 202406
+ls
+cd ..
+ls
+cd ~
+ls
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+git add .
+git commit -m "subo carpeta 202406 con ejercicios de docker y ansible resueltos"
+git push
+tree -l
+tree
+ls
+cd RTA_Examen_T20241117/
+ls
+chmod -x Punto_D.sh
+cd Punto_D.sh
+./Punto_D.sh
+chmod +x Punto_D.sh
+./Punto_D.sh
+ls
+cd ..
+ls
+history -a
+ls
+$HOME/.bash_history
+sudo $HOME/.bash_history
+ls
+cd ..
+ls
+cd ~
+ls
+.bash_history
+ls -l
+$HOME/.bash_history
+history -a 
+sudo history -a
+$HOME/.bash_history
+sudo $HOME/.bash_history
+history
+cat ~/.bash_history
+ls
+history 
+ls
+grep git ~/.bash_history
+grep git ~/.bash_history > comandos_git.txt
+cd ~
+ls -la
+cp .bash_history ~/bash_history/
+ls
+pwd
+cp .bash_history ~/backup/
+sudo cp .bash_history ~/backup/
+history -a
+ls
+mkdir backup
+cp .bash_history ~/backup/
+cd backup/
+ls
+ls -l
+cd ..
+ls
+bash_history
+cd UTNFRA_SO_2do_Parcial_choque/
+ls
+sudo cp ~/.bash_history pwd
+ls
