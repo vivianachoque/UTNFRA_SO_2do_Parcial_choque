@@ -1,0 +1,120 @@
+2024-06-24 18:08:06,499 p=3444395 u=upszot n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-06-24 18:08:06,598 p=3444395 u=upszot n=ansible | PLAY [all] **********************************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:06,609 p=3444395 u=upszot n=ansible | TASK [Gathering Facts] **********************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,746 p=3444395 u=upszot n=ansible | ok: [localhost]
+2024-06-24 18:08:07,775 p=3444395 u=upszot n=ansible | TASK [include_role : 2do_parcial] ***********************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,805 p=3444395 u=upszot n=ansible | TASK [2do_parcial : debug] ******************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,817 p=3444395 u=upszot n=ansible | ok: [localhost] => {
+    "msg": "Tareas del 2do Parcial"
+}
+2024-06-24 18:08:07,836 p=3444395 u=upszot n=ansible | TASK [Otra tarea] ***************************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,851 p=3444395 u=upszot n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-06-24 18:08:07,885 p=3444395 u=upszot n=ansible | PLAY RECAP **********************************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,885 p=3444395 u=upszot n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:13:02,104 p=10332 u=osboxes n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-18 21:13:02,115 p=10332 u=osboxes n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-11-18 21:13:02,600 p=10332 u=osboxes n=ansible | PLAY [Configuración 2do parcial] ********************************************************************************************************************************
+2024-11-18 21:13:02,621 p=10332 u=osboxes n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************
+2024-11-18 21:13:04,143 p=10332 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:13:04,164 p=10332 u=osboxes n=ansible | TASK [Crear estructura de directorios] **************************************************************************************************************************
+2024-11-18 21:13:04,635 p=10332 u=osboxes n=ansible | changed: [localhost] => (item=/tmp/2do_parcial)
+2024-11-18 21:13:04,938 p=10332 u=osboxes n=ansible | changed: [localhost] => (item=/tmp/2do_parcial/alumno)
+2024-11-18 21:13:05,257 p=10332 u=osboxes n=ansible | changed: [localhost] => (item=/tmp/2do_parcial/equipo)
+2024-11-18 21:13:05,269 p=10332 u=osboxes n=ansible | TASK [Crear archivo datos_alumno.txt] ***************************************************************************************************************************
+2024-11-18 21:13:05,344 p=10332 u=osboxes n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: If you are using a module and expect the file to exist on the remote, see the remote_src option
+2024-11-18 21:13:05,345 p=10332 u=osboxes n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Could not find or access 'datos_alumno.j2'\nSearched in:\n\t/home/osboxes/Desktop/UTN-FRA_SO_Examenes/202406/ansible/templates/datos_alumno.j2\n\t/home/osboxes/Desktop/UTN-FRA_SO_Examenes/202406/ansible/datos_alumno.j2\n\t/home/osboxes/Desktop/UTN-FRA_SO_Examenes/202406/ansible/templates/datos_alumno.j2\n\t/home/osboxes/Desktop/UTN-FRA_SO_Examenes/202406/ansible/datos_alumno.j2 on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}
+2024-11-18 21:13:05,346 p=10332 u=osboxes n=ansible | PLAY RECAP ******************************************************************************************************************************************************
+2024-11-18 21:13:05,346 p=10332 u=osboxes n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:18:21,397 p=10804 u=osboxes n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-18 21:18:21,402 p=10804 u=osboxes n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-11-18 21:18:21,642 p=10804 u=osboxes n=ansible | PLAY [Configuración 2do parcial] ********************************************************************************************************************************
+2024-11-18 21:18:21,652 p=10804 u=osboxes n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************
+2024-11-18 21:18:23,060 p=10804 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:18:23,083 p=10804 u=osboxes n=ansible | TASK [Crear estructura de directorios] **************************************************************************************************************************
+2024-11-18 21:18:23,561 p=10804 u=osboxes n=ansible | ok: [localhost] => (item=/tmp/2do_parcial)
+2024-11-18 21:18:23,877 p=10804 u=osboxes n=ansible | ok: [localhost] => (item=/tmp/2do_parcial/alumno)
+2024-11-18 21:18:24,206 p=10804 u=osboxes n=ansible | ok: [localhost] => (item=/tmp/2do_parcial/equipo)
+2024-11-18 21:18:24,216 p=10804 u=osboxes n=ansible | TASK [Crear archivo datos_alumno.txt] ***************************************************************************************************************************
+2024-11-18 21:18:24,272 p=10804 u=osboxes n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: If you are using a module and expect the file to exist on the remote, see the remote_src option
+2024-11-18 21:18:24,274 p=10804 u=osboxes n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Could not find or access 'datos_alumno.j2'\nSearched in:\n\t/home/osboxes/Desktop/UTN-FRA_SO_Examenes/202406/ansible/templates/datos_alumno.j2\n\t/home/osboxes/Desktop/UTN-FRA_SO_Examenes/202406/ansible/datos_alumno.j2\n\t/home/osboxes/Desktop/UTN-FRA_SO_Examenes/202406/ansible/templates/datos_alumno.j2\n\t/home/osboxes/Desktop/UTN-FRA_SO_Examenes/202406/ansible/datos_alumno.j2 on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}
+2024-11-18 21:18:24,275 p=10804 u=osboxes n=ansible | PLAY RECAP ******************************************************************************************************************************************************
+2024-11-18 21:18:24,275 p=10804 u=osboxes n=ansible | localhost                  : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:21:28,834 p=11285 u=osboxes n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-18 21:21:29,142 p=11285 u=osboxes n=ansible | PLAY [Configuración 2do parcial] ********************************************************************************************************************************
+2024-11-18 21:21:29,163 p=11285 u=osboxes n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************
+2024-11-18 21:21:30,803 p=11285 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:21:30,825 p=11285 u=osboxes n=ansible | TASK [Crear estructura de directorios] **************************************************************************************************************************
+2024-11-18 21:21:31,436 p=11285 u=osboxes n=ansible | ok: [localhost] => (item=/tmp/2do_parcial)
+2024-11-18 21:21:31,760 p=11285 u=osboxes n=ansible | ok: [localhost] => (item=/tmp/2do_parcial/alumno)
+2024-11-18 21:21:32,086 p=11285 u=osboxes n=ansible | ok: [localhost] => (item=/tmp/2do_parcial/equipo)
+2024-11-18 21:21:32,100 p=11285 u=osboxes n=ansible | TASK [Crear archivo datos_alumno.txt] ***************************************************************************************************************************
+2024-11-18 21:21:32,964 p=11285 u=osboxes n=ansible | changed: [localhost]
+2024-11-18 21:21:32,975 p=11285 u=osboxes n=ansible | TASK [Crear archivo datos_equipo.txt] ***************************************************************************************************************************
+2024-11-18 21:21:33,616 p=11285 u=osboxes n=ansible | changed: [localhost]
+2024-11-18 21:21:33,626 p=11285 u=osboxes n=ansible | TASK [Configurar sudoers para grupo 2PSupervisores] *************************************************************************************************************
+2024-11-18 21:21:34,271 p=11285 u=osboxes n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: PermissionError: [Errno 13] Permission denied: b'/etc/sudoers'
+2024-11-18 21:21:34,272 p=11285 u=osboxes n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "module_stderr": "Traceback (most recent call last):\n  File \"/home/osboxes/.ansible/tmp/ansible-tmp-1731982893.6487055-11547-141147943710817/AnsiballZ_lineinfile.py\", line 107, in <module>\n    _ansiballz_main()\n  File \"/home/osboxes/.ansible/tmp/ansible-tmp-1731982893.6487055-11547-141147943710817/AnsiballZ_lineinfile.py\", line 99, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n  File \"/home/osboxes/.ansible/tmp/ansible-tmp-1731982893.6487055-11547-141147943710817/AnsiballZ_lineinfile.py\", line 47, in invoke_module\n    runpy.run_module(mod_name='ansible.modules.lineinfile', init_globals=dict(_module_fqn='ansible.modules.lineinfile', _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/tmp/ansible_lineinfile_payload_9dtv5g_8/ansible_lineinfile_payload.zip/ansible/modules/lineinfile.py\", line 638, in <module>\n  File \"/tmp/ansible_lineinfile_payload_9dtv5g_8/ansible_lineinfile_payload.zip/ansible/modules/lineinfile.py\", line 628, in main\n  File \"/tmp/ansible_lineinfile_payload_9dtv5g_8/ansible_lineinfile_payload.zip/ansible/modules/lineinfile.py\", line 317, in present\nPermissionError: [Errno 13] Permission denied: b'/etc/sudoers'\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2024-11-18 21:21:34,273 p=11285 u=osboxes n=ansible | PLAY RECAP ******************************************************************************************************************************************************
+2024-11-18 21:21:34,273 p=11285 u=osboxes n=ansible | localhost                  : ok=4    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:27:03,328 p=11702 u=osboxes n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-18 21:27:03,798 p=11702 u=osboxes n=ansible | PLAY [Crear estructura de directorios y archivos] ***************************************************************************************************************
+2024-11-18 21:27:03,827 p=11702 u=osboxes n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************
+2024-11-18 21:27:03,884 p=11702 u=osboxes n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 127.0.0.1 port 22: Connection refused", "unreachable": true}
+2024-11-18 21:27:05,571 p=11702 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:27:05,595 p=11702 u=osboxes n=ansible | TASK [Crear directorios] ****************************************************************************************************************************************
+2024-11-18 21:27:06,109 p=11702 u=osboxes n=ansible | ok: [localhost] => (item=alumno)
+2024-11-18 21:27:06,419 p=11702 u=osboxes n=ansible | ok: [localhost] => (item=equipo)
+2024-11-18 21:27:06,428 p=11702 u=osboxes n=ansible | TASK [Generar archivo de datos del alumno] **********************************************************************************************************************
+2024-11-18 21:27:07,208 p=11702 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:27:07,217 p=11702 u=osboxes n=ansible | TASK [Generar archivo de datos del equipo] **********************************************************************************************************************
+2024-11-18 21:27:07,832 p=11702 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:27:07,843 p=11702 u=osboxes n=ansible | TASK [Configurar sudoers para el grupo 2PSupervisores] **********************************************************************************************************
+2024-11-18 21:27:08,422 p=11702 u=osboxes n=ansible | changed: [localhost]
+2024-11-18 21:27:08,459 p=11702 u=osboxes n=ansible | PLAY RECAP ******************************************************************************************************************************************************
+2024-11-18 21:27:08,460 p=11702 u=osboxes n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:27:08,460 p=11702 u=osboxes n=ansible | localhost                  : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:28:41,066 p=12032 u=osboxes n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-18 21:28:41,338 p=12032 u=osboxes n=ansible | PLAY [Crear estructura de directorios y archivos] ***************************************************************************************************************
+2024-11-18 21:28:41,352 p=12032 u=osboxes n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************
+2024-11-18 21:28:41,386 p=12032 u=osboxes n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 127.0.0.1 port 22: Connection refused", "unreachable": true}
+2024-11-18 21:28:42,997 p=12032 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:28:43,023 p=12032 u=osboxes n=ansible | TASK [Crear directorios] ****************************************************************************************************************************************
+2024-11-18 21:28:43,547 p=12032 u=osboxes n=ansible | ok: [localhost] => (item=alumno)
+2024-11-18 21:28:43,892 p=12032 u=osboxes n=ansible | ok: [localhost] => (item=equipo)
+2024-11-18 21:28:43,903 p=12032 u=osboxes n=ansible | TASK [Generar archivo de datos del alumno] **********************************************************************************************************************
+2024-11-18 21:28:44,719 p=12032 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:28:44,728 p=12032 u=osboxes n=ansible | TASK [Generar archivo de datos del equipo] **********************************************************************************************************************
+2024-11-18 21:28:45,402 p=12032 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:28:45,410 p=12032 u=osboxes n=ansible | TASK [Configurar sudoers para el grupo 2PSupervisores] **********************************************************************************************************
+2024-11-18 21:28:45,907 p=12032 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:28:45,945 p=12032 u=osboxes n=ansible | PLAY RECAP ******************************************************************************************************************************************************
+2024-11-18 21:28:45,945 p=12032 u=osboxes n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:28:45,945 p=12032 u=osboxes n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:31:39,074 p=12375 u=osboxes n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-18 21:31:39,376 p=12375 u=osboxes n=ansible | PLAY [Crear estructura de directorios y archivos] ***************************************************************************************************************
+2024-11-18 21:31:39,389 p=12375 u=osboxes n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************
+2024-11-18 21:31:39,427 p=12375 u=osboxes n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 127.0.0.1 port 22: Connection refused", "unreachable": true}
+2024-11-18 21:31:41,010 p=12375 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:31:41,037 p=12375 u=osboxes n=ansible | TASK [Crear directorios] ****************************************************************************************************************************************
+2024-11-18 21:31:41,570 p=12375 u=osboxes n=ansible | ok: [localhost] => (item=alumno)
+2024-11-18 21:31:41,930 p=12375 u=osboxes n=ansible | ok: [localhost] => (item=equipo)
+2024-11-18 21:31:41,941 p=12375 u=osboxes n=ansible | TASK [Generar archivo de datos del alumno] **********************************************************************************************************************
+2024-11-18 21:31:42,772 p=12375 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:31:42,782 p=12375 u=osboxes n=ansible | TASK [Generar archivo de datos del equipo] **********************************************************************************************************************
+2024-11-18 21:31:43,483 p=12375 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:31:43,494 p=12375 u=osboxes n=ansible | TASK [Configurar sudoers para el grupo 2PSupervisores] **********************************************************************************************************
+2024-11-18 21:31:44,038 p=12375 u=osboxes n=ansible | ok: [localhost]
+2024-11-18 21:31:44,076 p=12375 u=osboxes n=ansible | PLAY RECAP ******************************************************************************************************************************************************
+2024-11-18 21:31:44,077 p=12375 u=osboxes n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-18 21:31:44,077 p=12375 u=osboxes n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

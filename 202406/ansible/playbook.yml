@@ -1,0 +1,38 @@
+- name: Crear estructura de directorios y archivos
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Crear directorios
+      file:
+        path: /tmp/2do_parcial/{{ item }}
+        state: directory
+      loop:
+        - alumno
+        - equipo
+
+    - name: Generar archivo de datos del alumno
+      template:
+        src: templates/datos_alumno.j2
+        dest: /tmp/2do_parcial/alumno/datos_alumno.txt
+      vars:
+        nombre: Viviana
+        apellido: Choque
+        division: 311
+
+    - name: Generar archivo de datos del equipo
+      template:
+        src: templates/datos_equipo.j2
+        dest: /tmp/2do_parcial/equipo/datos_equipo.txt
+      vars:
+        ip: "192.168.1.100"
+        distro: "Ubuntu 22.04"
+        cores: "8"
+
+    - name: Configurar sudoers para el grupo 2PSupervisores
+      lineinfile:
+        path: /etc/sudoers
+        regexp: '^%2PSupervisores ALL=(ALL) NOPASSWD: ALL$'
+        line: '%2PSupervisores ALL=(ALL) NOPASSWD: ALL'
+        create: yes
+        state: present
